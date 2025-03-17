@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class App {
+  public static void main(String[] args) {
+    int numeroUm, numeroDois, soma, subtracao, multiplicacao;
+
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.println("Digite o primeiro número: ");
+    numeroUm = scanner.nextInt();
+
+    System.out.println("Digite o segundo número: ");
+    numeroDois = scanner.nextInt();
+
+    soma = numeroUm + numeroDois;
+    System.out.println("O resultado da soma é: " + soma);
+
+    subtracao = numeroUm - numeroDois;
+    System.out.println("O resultado da subtração é: " + subtracao);
+
+    multiplicacao = numeroUm * numeroDois;
+    System.out.println("O resultado da multiplicação é: " + multiplicacao);
+
+    scanner.close();
+  }
+}
